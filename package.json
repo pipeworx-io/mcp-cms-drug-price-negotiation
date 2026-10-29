@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-cms-drug-price-negotiation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CMS Medicare drug price negotiation: the Maximum Fair Price (MFP) for every drug CMS has selected under the Inflation Reduction Act.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-cms-drug-price-negotiation": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "cms-drug-price-negotiation"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-cms-drug-price-negotiation.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/cms-drug-price-negotiation",
   "pipeworx": {
-    "sourceHash": "v1-3af2408cfbcc43afac754db9f920776e20e47ca76158c4e2d7a297c0f5e02301",
-    "sourceCommit": "70a4e816a9195016cd4af92dca2019485d4c3865"
+    "mode": "gateway",
+    "slug": "cms-drug-price-negotiation",
+    "gatewaySlug": "cms-drug-price-negotiation",
+    "sourceHash": "v1-0c538af544fe6835eb6779438bb7a0119ea400fd49b0b6618d04c69bdd21eedf",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }

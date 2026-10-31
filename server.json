@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/cms-drug-price-negotiation",
   "title": "Cms Drug Price Negotiation",
   "description": "CMS Medicare drug price negotiation: the Maximum Fair Price (MFP) for every drug CMS has selected…",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/cms-drug-price-negotiation",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-cms-drug-price-negotiation",

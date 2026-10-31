@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-cms-drug-price-negotiation",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CMS Medicare drug price negotiation: the Maximum Fair Price (MFP) for every drug CMS has selected under the Inflation Reduction Act.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "cms-drug-price-negotiation",
     "gatewaySlug": "cms-drug-price-negotiation",
-    "sourceHash": "v1-0c538af544fe6835eb6779438bb7a0119ea400fd49b0b6618d04c69bdd21eedf",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-3e4ae3160a3b4479d86be5cc01cab94d9d1fceefcef6c4e6b0bfdcd627545806",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
